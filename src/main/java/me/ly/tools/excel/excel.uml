@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="236.0" y="82.0">me.ly.tools.excel.imp1.reader.XmlReader</node>
+    <node x="204.0" y="164.0">me.ly.tools.excel.imp1.reader.impl.ClassPathXmlReader</node>
+    <node x="17.0" y="82.0">me.ly.tools.excel.imp1.reader.ElementReader</node>
+    <node x="146.75" y="0.0">me.ly.tools.excel.imp1.reader.Reader</node>
+    <node x="0.0" y="164.0">me.ly.tools.excel.imp1.reader.impl.ExcelElementReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="me.ly.tools.excel.imp1.reader.impl.ClassPathXmlReader" target="me.ly.tools.excel.imp1.reader.XmlReader">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="me.ly.tools.excel.imp1.reader.ElementReader" target="me.ly.tools.excel.imp1.reader.Reader">
+      <point x="0.0" y="-16.0" />
+      <point x="92.0" y="57.0" />
+      <point x="170.5" y="57.0" />
+      <point x="-23.75" y="16.0" />
+    </edge>
+    <edge source="me.ly.tools.excel.imp1.reader.XmlReader" target="me.ly.tools.excel.imp1.reader.Reader">
+      <point x="0.0" y="-16.0" />
+      <point x="296.5" y="57.0" />
+      <point x="218.0" y="57.0" />
+      <point x="23.75" y="16.0" />
+    </edge>
+    <edge source="me.ly.tools.excel.imp1.reader.impl.ExcelElementReader" target="me.ly.tools.excel.imp1.reader.ElementReader">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="706.0" y="112.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
